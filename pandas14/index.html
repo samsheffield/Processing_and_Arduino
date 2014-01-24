@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Processing and Arduino: Spring 2014</title>
+	<link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Processing and Arduino: Spring 2014 (IA 5540.01)</h1>
+		</div>
+		<div id="sidebar">
+			<h2>Important</h2>
+			<ul>
+				<li><a href="docs/syllabus.pdf">Online Syllabus</a></li>
+				<li><a href="http://github.com/samsheffield/Processing_and_Arduino">Code Repository</a></li>
+			</ul>
+			<h2>Schedule</h2>
+			<ul>
+				<li><a href="#week1">Week 1: Jan. 23rd</a></li>
+				<li><a href="#week2">Week 2: Jan. 30th</a></li>
+				<li><a href="#week3">Week 3: Feb. 6th</a></li>
+				<li><a href="#week4">Week 4: Feb. 13th</a></li>
+				<li><a href="#week5">Week 5: Feb. 20th</a></li>
+				<li><a href="#week6">Week 6: Feb. 27th</a></li>
+				<li><a href="#week7">Week 7: Mar. 6th</a></li>
+				<li><a href="#week8">Week 8: Mar. 13th</a></li>
+				<li><a href="#week9">Week 9: Mar. 20th</a></li>
+				<li><a href="#week10">Week 10: Mar. 27th</a></li>
+				<li><a href="#week11">Week 11: Apr. 3rd</a></li>
+				<li><a href="#week12">Week 12: Apr. 10th</a></li>
+				<li><a href="#week13">Week 13: Apr. 17th</a></li>
+				<li><a href="#week14">Week 14: Apr. 24th</a></li>
+				<li><a href="#week15">Week 15: May 1st</a></li>
+				<li><a href="#week16">Week 16: May 8th</a></li>
+			</ul>
+		</div>
+		<div id="main">
+			<div class="content">
+				<h2 id="week1">Class 1: Date</h2>
+				<div>
+					<h3>Welcome</h3>
+					<p>
+						<ul>
+							<li>Overview of this class</li>
+							<li>Review tentative schedule</li>
+							<li>Q &amp; A</li>
+						</ul>
+					</p>
+
+					<h3>Purchases</h3>
+					<p>
+						You won't need these things until after Spring Break, but I would recommend purchasing them sooner, rather than later.
+						<ul>
+							<li>Arduino Leonardo (with headers)*</li>
+							<li>* <em>If you have an older Arduino, you don't need to buy a Leonardo replacement.</em></li>
+							<li>Micro USB cable (if you have an Android phone you probably already have this)</li>
+							<li>Breadboard (small or large, but make sure it has power busses along sides)</li>
+							<li>Storage box</li>
+						</ul>
+					</p>
+
+					<p>Amazon is a (surprisingly) great place to buy this stuff, particularly if you have a <a href="http://www.amazon.com/gp/student/signup/info">Prime account</a> (which is free to students for a limited time!).</p>
+					<p>
+						Other options:
+						<ul>
+							<li>MicroCenter in Parkville (low inventory)</li>
+							<li><a href="http://www.adafruit.com/">Adafruit</a> (in New York)</li>
+							<li><a href="http://www.sparkfun.com/">Sparkfun</a> (in Colorado)</li>
+						</ul>
+					</p>					
+
+					<h3>What is Processing?</h3>
+					<p>
+						<blockquote>
+							"Processing is a programming language, development environment, and online community. Since 2001, Processing has promoted software literacy within the visual arts and visual literacy within technology. Initially created to serve as a software sketchbook and to teach computer programming fundamentals within a visual context, Processing evolved into a development tool for professionals. Today, there are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning, prototyping, and production."
+							<cite>description from <a href="http://processing.org">processing.org</a></cite>
+						</blockquote>
+					</p>
+
+					<h3>Creative Coding, Poetic Computation</h3>
+					<p>
+
+						<blockquote>
+							"The main challenge is trying to create work that touches people at an emotional level, as opposed to them thinking about the technology or wondering how it was made. Making poems, not demos, is how we refer to it, i.e. making work that is like a poem, short yet dense, re-tellable, rhythmic, meaningful as opposed to a demo that just feels like technology for technology's sake."
+							<cite>Zach Lieberman</cite>
+						</blockquote>
+					</p>
+					<p>
+						<iframe src="http://player.vimeo.com/video/2375302?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="710" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<a href="http://thesystemis.com/projects/manual-input-sessions/">Manual Input Sessions</a> by tmema(Golan Levin/Zach Lieberman)
+					</p>
+					
+					<p>
+						<iframe src="http://player.vimeo.com/video/5233789?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="710" height="399" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<a href="http://thesystemis.com/projects/iq-font/">IQ font</a> by Happiness Brussels/Zach Lieberman
+					</p>
+					
+					<p>
+						<iframe src="http://player.vimeo.com/video/6376466?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="710" height="399" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+						<a href="http://thesystemis.com/projects/iq-font/">The Eyewriter</a> by FAT/Zach Lieberman
+					</p>
+
+					<p>
+						<img src="images/sfpc.png">
+						<a href="http://goo.gl/svj38Y">Code to Joy: School for Poetic Computation Opens</a>
+					</p>
+						
+					<h3>Other forms...</h3>	
+					<p>
+						<img src="images/gatsby1.jpg">
+						<img src="images/gatsby2.jpg">
+
+						<a href="http://www.generativegatsby.com">The Generative Gatsby: Jazzed Up Typography</a> by Vladimir V. Kuchinov
+					</p>
+
+					<p>
+						<iframe src="http://player.vimeo.com/video/38874664?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="710" height="355" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+						<a href="http://www.onformative.com/work/unnamed-soundsculpture/">unnamed soundsculpture</a> by Onformative
+					</p>
+					
+					<p>
+						<iframe src="http://player.vimeo.com/video/22732435?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="710" height="399" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					
+						<a href="http://www.illucia.com">illucia</a> by Chris Novello
+					</p>
+						
+
+					<h3>Hello World!</h3>
+					<p>
+						Today, we'll be getting our feet wet with the Processing environment and language– drawing shapes, adjusting their attributes, and working with images.
+						<ul>
+							<li>Install Processing (<a href="http://processing.org/download/?processing">link</a>)</li>
+							<li>Tour of the programming environment</li>
+							<li>Structure of a Processing sketch</li>
+							<li>Running a sketch</li>
+							<li>Syntax is the grammar of code</li>
+							<li>Setting window properties</li>
+							<li>Shape primitive functions</li>
+							<li>Adjusting attributes (color, fill, stroke)</li>
+							<li>Coordinates and rotation</li>
+							<li>Working with images</li>
+							<li>The sketchbook</li>
+							<li>Tinting and transparency</li>
+							<li>Using Processing's Reference</li>
+						</ul>
+					</p>
+
+					<h3>Sample code</h3>
+					<p>
+						Heavily commented code examples available <a href="https://github.com/samsheffield/Processing_and_Arduino/releases/tag/week1s14">here</a>.
+					</p>
+				</div>
+			</div>
+
+			<div class="homework_container">
+				<h2>Homework</h2>
+				<div class="homework">
+					<h3>Survey</h3>
+					<p>
+						<ul>
+							<li>Later this week, I'll send everyone a link to an entrance survey for the class. This will help me get to know a little more about your interests and abilities as we head into the semester.</li>
+							<li>Please take a few minutes to fill out the survey honestly.</li>
+						</ul>
+					</p>
+				</div>
+
+				<div class="homework">
+					<h3>Homework 1: Translation/Composition</h3>
+					<p>
+						<ul>
+							<li>Use Processing to create a composite image structured through code.</li>
+							<li>Let your own interests and curiosity define your aesthetic decisions.</li>
+							<li>In addition to the material introduced in class today, I would like you to research and utilize something from either the Curves or Vertex subheading in the <a href="http://processing.org/reference/">Processing Reference</a></li>
+							<li>We'll start class next week by taking a brief look at what everyone comes up with.</li>
+						</ul>
+					</p>
+				</div>
+				<div class="homework">
+					<h3>Reading 1: Medium</h3>
+					<p>
+						<ul>
+							<li>Medium from Abstracting Craft: The Practiced Digital Hand, by Malcolm McCullough (<a href="docs/medium.pdf">link</a></li>
+							<li>I'd like to hear your thoughts on the potential of code as creative medium in 2 weeks.</li>
+						</ul>
+					</p>
+				</div>
+				
+			</div>
+
+		</div>
+		<div id="footer"></div>
+	</div>
+</body>
+</html>

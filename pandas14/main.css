@@ -1,0 +1,159 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	font-weight:300;
+	font-size: 1em;
+	color: #000;
+	background: #fff;
+	margin: 0;
+	height: 100%;
+	line-height: 1.65em;
+}
+
+#container {
+	width: 990px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+#header {
+	width:940px;
+	margin:40px 0;
+}
+
+#sidebar {
+	width: 199px;
+	margin-left: 0px;
+	float: left;
+}
+
+#main {
+	width: 740px;
+	float:right;
+	padding-left:40px;
+	border-left: 1px dashed #aaa;
+} 
+
+.content {
+	padding:0 15px 15px;
+}
+
+h1, h2, h3, h4, .big, .medium {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #000;
+}
+
+
+h4 {
+	margin-top: 30px;
+}
+
+.big {
+	font-size: 3em;
+	text-align: center;
+	line-height: 1em;
+}
+
+.medium {
+	font-size: 1.25em;
+	text-align: center;
+	line-height: 1em;
+	margin:0 0 60px 0;
+}
+
+ul, li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#sidebar li {
+	list-style: none;
+	line-height:2em;
+}
+
+.content li, .homework ul li {
+	margin-left:20px;
+	list-style-type:square;
+	padding-bottom:5px;
+}
+
+a {
+	color: #000;
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.homework_container {
+	float:left;
+	margin-bottom:30px;
+}
+
+.homework {
+	background: #eee;
+	padding:15px;
+	border: 1px dashed #aaa;
+	margin-bottom:10px;
+	float:left;
+	width: 710px;
+}
+
+.homework h3 {
+	margin: 0;
+}
+
+.homework li {
+	list-style: none;
+}
+
+.unused {
+	text-decoration: line-through;
+}
+
+#footer {
+	clear: both;
+	height: 60px;
+}
+
+.subtitle{
+	margin:0 0 30px 0;
+	padding:0;
+	
+}
+
+blockquote {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 1.25em;	
+	line-height: 1.5em;
+	padding:25px;
+	margin:20px 0 30px 0;
+	background: #000;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+blockquote cite{
+	color: #eee;
+	display: block;
+	margin-top: 5px;
+	font-family: 'Nunito', sans-serif;
+	font-weight:300;
+	font-size: .8em;	
+}
+
+blockquote cite a {
+	color: #eee;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+
+img {
+	margin:0;
+}
+
